@@ -36,7 +36,9 @@ rails db:seed
 rails s
 ```
 7. Using postman or curl, visit
-  GET: localhost:3000/api/v1/products/{id}
-  PUT: localhost:3000/api/v1/products/{id}?value={value}
+```bash
+GET: localhost:3000/api/v1/products/{id}
+PUT: localhost:3000/api/v1/products/{id}?value={value}
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
