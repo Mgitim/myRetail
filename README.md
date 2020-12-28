@@ -20,7 +20,15 @@ git checkout develop
 ```bash
 bundle install
 ```
-4. Once the previous step is successfully completed start the server.
+4. Start mongo db local instance
+```bash
+mongod --dbpath ~/data/db
+```
+5. Populate mongodb with seed price data for the example Products
+```bash
+rails db:seed
+```
+6. Once the previous step is successfully completed start the server.
 ```bash
 rails s
 ```
